@@ -5,7 +5,7 @@ import { NavLink, Link } from "react-router-dom";
 const NavBar = () => {
     return (
         <nav className="NavBar">
-            <Link to ='/'>
+            <Link className='Logo' to ='/'>
                 <h3>PCbuilders</h3>
             </Link>           
             <div className="Categories">

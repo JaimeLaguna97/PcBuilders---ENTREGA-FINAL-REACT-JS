@@ -1,19 +1,7 @@
 .cart-svg {
-    display: flex;
-    align-items: center;
     width: 35px;
-    padding-top: 20px;
+    padding: 20px;
 }
-    
 
-.NavButton{
-    background-color:black;
-    cursor: pointer;
-    border-right: #fff;
-    color:#fff;
-    padding: 5px;
-    font-size: 20px;
-    font-family: "Quicksand";
-    font-weight: bold;
-    position: relative;
-}
+
+

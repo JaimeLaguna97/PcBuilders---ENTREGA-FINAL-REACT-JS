@@ -9,15 +9,16 @@ const ItemDetail = ({id, name, img, category, description, price, stock}) => {
                     {name}
                 </h2>
             </header>
-        <picture>
-            <img className='ItemImg' src={img} width={120} alt={name}/>        
-        </picture>
+        
         <section>
+        <picture>
+            <img className='ItemImg' src={img}  alt={name}/>        
+        </picture>
             <p className="Info"> 
                 Category: {category}
             </p>
             <p className="Info">
-                Desciption: {description}
+                Description: {description}
             </p>
             <p className="Info">
                 Precio: ${price}

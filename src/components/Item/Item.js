@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import './Item.css';
+import { getProductsByCategory } from '../../asyncMock';
 
 const Item = ({id, name,img,price,stock}) => {
     return(
@@ -19,10 +20,10 @@ const Item = ({id, name,img,price,stock}) => {
                         Stock available: {stock}
                     </p>
                 </section>
-                <footer className='ItemFooter'>
-                    <Link to={`/item/${id}`} className='Option'>Ver detalle</Link>
-                </footer>
             </header>
+            <footer className='ItemFooter'>
+                    <Link to={`/item/${id}`} className='Option'>See details</Link>
+            </footer>
         </article>
     )
 }

@@ -1,11 +1,17 @@
 .CardItemDetail{
-    display:block;
-    padding:40px 0 0 0;
+    padding-top:30px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
 }
 
+
 .ItemImg{
-    padding:20px;
+   padding: 30px;
+   width: 200px;
 }
+
 
 
 
