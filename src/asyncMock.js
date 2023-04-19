@@ -1,7 +1,7 @@
 const products = [   
         {
         id:'1',
-        name: 'CyberpowerPC Gamer Xtreme VR Gaming PC',
+        name: 'Intel Core i9-13900K Desktop Processor',
         price: 800,
         category:'processors',
         img:'https://m.media-amazon.com/images/I/61uI+orDOZL._AC_SL1500_.jpg',
