@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import './Item.css';
-import { getProductsByCategory } from '../../asyncMock';
+
 
 const Item = ({id, name,img,price,stock}) => {
     return(
