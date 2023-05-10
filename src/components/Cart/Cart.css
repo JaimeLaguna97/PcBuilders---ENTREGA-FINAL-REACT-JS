@@ -1,0 +1,39 @@
+.Total{
+    color:black;
+    font-size: 24px;
+    font-family: 'Quicksand';
+    border-radius: 10px;
+}
+
+
+.CartCheckout{
+    padding: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.OptionCart{
+    text-decoration: none;
+    background-color:black;
+    cursor: pointer;
+    border: none;
+    padding: 10px 15px;
+    color:#fff;
+    font-size: 24px;
+    font-family: 'Quicksand';
+    position: relative;
+    border-radius: 10px;
+}
+
+.ButtonCart{
+    text-decoration: none;
+    background-color:black;
+    cursor: pointer;
+    border: none;
+    padding: 10px 15px;
+    color:#fff;
+    font-size: 24px;
+    font-family: 'Quicksand';
+    position: relative;
+    border-radius: 10px;
+}

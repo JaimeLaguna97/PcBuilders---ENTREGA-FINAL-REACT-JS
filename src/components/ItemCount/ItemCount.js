@@ -1,35 +1,40 @@
+import { useState } from 'react';
 import './ItemCount.css';
-import {useState} from 'react';
 
-const ItemCount = ({stock,initial,onAdd})=> {
-    const [quantity, setQuantity] =useState(initial)
+const ItemCount = ({ initial, stock, onAdd }) => {
+  const [count, setCount] = useState(initial);
 
-    const increment = () => {
-        if(quantity < stock){
-            setQuantity(quantity+1)
-        }
+  const handleAddClick = () => {
+    if (count < stock) {
+      setCount(count + 1);
     }
+  };
 
-    const decrement = () => {
-        if(quantity > 1){
-            setQuantity(quantity-1)
-        }
+  const handleSubtractClick = () => {
+    if (count > 1) {
+      setCount(count - 1);
     }
+  };
 
-    return( 
-    <div className='Counter'>
-        <div className='Controls'>
-            <button className="Button" onClick={decrement}>-</button>
-            <h4 className='Number'>{quantity} </h4>
-            <button className="Button" onClick={increment}>+</button>
-        </div>
-        <div>
-            <button className="Button" onClick= {()=> onAdd(quantity)} disabled={!stock}>
-                Agregar al carrito 
-            </button>
-        </div>
+  const handleAddToCartClick = () => {
+    onAdd(count);
+    setCount(initial);
+  };
+
+  return (
+    <div className="ItemCount">
+      <button className="ItemCount-button" onClick={handleSubtractClick}>
+        -
+      </button>
+      <span className="ItemCount-count">{count}</span>
+      <button className="ItemCount-button" onClick={handleAddClick}>
+        +
+      </button>
+      <button className="ItemCount-addToCart" onClick={handleAddToCartClick}>
+        Add to Cart
+      </button>
     </div>
-    )
-}   
+  );
+};
 
 export default ItemCount;

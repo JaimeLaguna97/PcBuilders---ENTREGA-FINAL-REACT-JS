@@ -9,21 +9,17 @@
     padding: 2px;
     color: black;
     font-weight: bolder;
+    font-size:  22px;;
 }
 
 .ItemFooter{
     width: 100%;
-    padding-top: 5px;
-    
 }
 
-.Option {
-    border: none;
+.OptionDetails{
+    font-size: 20px;
     padding: 10px;
+    text-decoration: none;
     background-color: black;
-    color:white;
+    color: white;
 }
-
-
-
-
