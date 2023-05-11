@@ -1,32 +1,28 @@
 .Counter{
     display: flex;
-    padding: 0px 20px 10px 20px;
-    align-items: center;
-    justify-content: space-between;
-}
-
-
-.Controls {
     align-items: center;
     justify-content: center;
-    display: flex;
-}
-
-.Button {
-    background-color:black;
+  }
+  
+  .Button {
+    background-color: black;
     cursor: pointer;
     border: none;
     padding: 10px 20px;
-    color:#fff;
+    color: #fff;
     display: inline-block;
     font-size: 24px;
     font-family: "Quicksand";
     font-weight: bold;
     position: relative;
     border-radius: 10px;
-}
-
-.Number{
-    font-size: 30px;
-    padding: 50px;
-}
+    margin-left: 40px;
+  }
+  
+  .Number {
+    font-weight: bolder;
+    font-size: 36px;
+    padding: 20px;
+    font-family: "Quicksand";
+    margin-left: 40px;
+  }

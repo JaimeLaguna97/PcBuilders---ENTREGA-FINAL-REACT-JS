@@ -1,3 +1,39 @@
+# PcBuilders
+PcBuilders is an e-commerce website that sells computer parts, notebooks, and desktop computers.
+
+# Homepage
+The homepage displays a list of all the items available on the website. Each item displays its name, image, price, and a brief description.
+
+# Navigation
+The website has three navigation links:
+
+Home: Takes the user back to the homepage.
+Cart: Displays the items added to the cart and their total cost.
+Checkout: Takes the user to the checkout page.
+Product Detail
+Clicking on any product takes the user to a detailed page with more information about the product, such as its specifications, reviews, and related products.
+
+# Cart
+The cart displays the items added to it and their total cost. The user can increase or decrease the quantity of each item in the cart or remove it altogether.
+
+# Checkout
+The checkout page displays a form where the user can enter their shipping and billing information.
+
+# Order Confirmation
+Once the user completes the checkout process, they receive an order confirmation email with the details of their purchase.
+
+# Technologies Used
+The website was built using the following technologies:
+
+React.js: for the frontend.
+Firebase: for the database.
+JavaScript: for scripting and interactivity.
+CSS: for styling.
+JSX: for templating and rendering components.
+Conclusion
+PcBuilders is a fully functional e-commerce website that sells computer parts, notebooks, and desktop computers. It provides an easy and intuitive shopping experience for its users, making it a great option for anyone looking to buy computer hardware. Although the payment process is not yet implemented, it is planned for future development.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

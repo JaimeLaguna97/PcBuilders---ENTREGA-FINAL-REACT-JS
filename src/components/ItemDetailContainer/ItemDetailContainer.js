@@ -28,7 +28,6 @@ const ItemDetailContainer = () => {
                 setLoading(false);
             });
     }, [itemId]);
-    console.log(product)
     return (
         <div className='ItemDetailContainer'>
             {loading ? <p>Loading...</p> : <ItemDetail {...product} />}

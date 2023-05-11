@@ -10,11 +10,16 @@ const Cart = () => {
 
   if (totalQuantity === 0) {
     return (
-      <div className="CartCheckout">
+      <div className="CartEmpty">
         <h1>CART EMPTY</h1>
-        <Link to="/" className="Option">
+        <Link to="/" className="OptionEmpty">
           PRODUCTS
         </Link>
+        <>
+        <div>
+          <img src="https://i.ibb.co/Wg7sFdz/sad-face-2691.png" alt="sad-face"></img>
+        </div>
+        </>
       </div>
     );
   }

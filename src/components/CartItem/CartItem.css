@@ -1,31 +1,59 @@
-.CartItem{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 30px;
-    font-size: 20px;
-    font-weight: 900;
+.Logo {
+  padding: 10px;
+  color: white;
+  text-decoration: none;
 }
 
-.CartItem-image{
-    width: 150px;
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 10px;
 }
 
-.Option{
-        box-shadow: inset 0 0 0 0 white;
-        color: white;
-        margin: 0 -.25rem;
-        padding: 0 .25rem;
-        transition: color .3s ease-in-out, box-shadow .3s ease-in-out;     
+.Option {
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
 }
 
-.Option:hover{
-        box-shadow: inset 100px 0 0 0 white;
-        color: black;
-        font-weight: bolder;
-    
+.ActiveOption {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-left: 20px;
 }
 
+.OptionProducts {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 10px;
+}
 
+.CartItem {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 900;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  max-width: 600px;
+}
 
+.CartItem-image {
+  width: 180px;
+  transition: transform 0.3s ease;
+}
 
+.CartItem-details {
+  padding-top: 30px;
+}
+
+.CartItem:hover .CartItem-image {
+  transform: scale(1.03);
+}

@@ -22,18 +22,19 @@ const ItemCount = ({ initial, stock, onAdd }) => {
   };
 
   return (
-    <div className="ItemCount">
-      <button className="ItemCount-button" onClick={handleSubtractClick}>
-        -
-      </button>
-      <span className="ItemCount-count">{count}</span>
-      <button className="ItemCount-button" onClick={handleAddClick}>
-        +
-      </button>
-      <button className="ItemCount-addToCart" onClick={handleAddToCartClick}>
-        Add to Cart
-      </button>
+    <div className="Counter">
+        <button className="Button" onClick={handleSubtractClick}>
+          -
+        </button>
+        <span className="Number">{count}</span>
+        <button className="Button" onClick={handleAddClick}>
+          +
+        </button>
+        <button className="Button" onClick={handleAddToCartClick}>
+          Add to Cart
+        </button>
     </div>
+
   );
 };
 
