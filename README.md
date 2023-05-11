@@ -19,9 +19,6 @@ The cart displays the items added to it and their total cost. The user can incre
 # Checkout
 The checkout page displays a form where the user can enter their shipping and billing information.
 
-# Order Confirmation
-Once the user completes the checkout process, they receive an order confirmation email with the details of their purchase.
-
 # Technologies Used
 The website was built using the following technologies:
 
